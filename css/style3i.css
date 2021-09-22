@@ -15,7 +15,7 @@ header {
     color: white;
     font-size: 2rem;
     margin: 0 auto;
-    margin-top: 1.5rem;
+    margin-top: 10px;
     border-radius: 5px;
     align-items: center;
     text-align: center;
@@ -23,7 +23,7 @@ header {
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-areas: "aside section";
@@ -42,9 +42,13 @@ aside{
 aside li {
     line-height: 1.6;
     font-size: 2rem;
-    color: white;
-
 }
+li {
+    color: rgb(97, 67, 67); /* bullet color */
+  }
+
+
+
 a:link {
     text-decoration: none;
     list-style: none;
@@ -62,13 +66,62 @@ a:active {
 
 section {
     grid-area: section;
-    background-color: rgb(135, 250, 250);
+    background-color: rgb(71, 160, 160);
 }
 .box{
     margin: 2rem auto;
     text-align: center;
 /*     margin: 100px; */
 }
+
+.lista2 {
+    margin-left: 4rem;
+    line-height: 1.4;
+    font-size: 2rem;
+}
+
+.boxform{
+    
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+article{
+
+    margin: 20px;
+}
+
+#ipe{
+/*     display: flex;
+    justify-content: flex-end; */
+    background-image: url(../img/ipe-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: bottom 10px right 10px;
+    background-size: 30rem;
+
+
+}
+
+h2{
+    color: rgb(107, 107, 107);
+    font-size: 2rem;
+}
+fieldset{
+    margin-top: 20px;
+    padding: 1rem;
+}
+#frist{
+    border: none;
+}
+
+
+.block {
+    display: block;
+/*     background-color: yellow; */
+}
+
+
 
 .video {
     border-radius: 10px;
@@ -81,13 +134,13 @@ section {
 
 
 footer {
-    line-height: 1.3;
+    line-height: 1.1;
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 10px;
     background-color: lightseagreen;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: rgb(255, 255, 255);
 
  }
@@ -97,11 +150,22 @@ footer {
     display: inline;
 }
 
- .redes_sociais img {
-    height: 3rem;
-    width: 3rem;
- }
+.footer-box p {
+font: bolder;
+}
 
- .footer-box H2 {
+.redes_sociais img {
+    height: 2.5rem;
+    width: 2.5rem;
+/*     display: inline; */
+}
+
+.footer-box H2 {
      display: inline;
- }
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+}
+
