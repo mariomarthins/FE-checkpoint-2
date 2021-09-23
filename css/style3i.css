@@ -101,16 +101,12 @@ article{
     background-size: 30rem;
 }
 
-#ipe2{
-    background-image: url(../img/iperosa-removebg-preview.png);
-    background-repeat: no-repeat;
-/*     background-position: bottom 10px right 10px;
-    background-size: 30rem; */
+.conteiner{
+    height: 60vh;
 }
 
-
 h2{
-    color: rgb(107, 107, 107);
+    color: rgb(95, 31, 31);
     font-size: 2rem;
 }
 fieldset{
@@ -182,3 +178,30 @@ font: bolder;
     justify-content: space-between;
 }
 
+button{
+    font-size: 1.3rem;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px; 
+}
+
+button:hover {
+    background-color: rgba(94, 71, 110, 0.575);
+    font-size: 2rem;
+}
+
+input[type = radio]:hover{
+  transform: scale(3);  
+}
+
+input[type = checkbox]:focus{
+    transform: scale(2);
+    
+}
+
+#confirm {
+/*     display: flex;
+    justify-content: center; */
+    text-align: center;
+    margin: 0 auto;
+}
