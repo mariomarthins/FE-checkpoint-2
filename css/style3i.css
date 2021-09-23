@@ -99,9 +99,15 @@ article{
     background-repeat: no-repeat;
     background-position: bottom 10px right 10px;
     background-size: 30rem;
-
-
 }
+
+#ipe2{
+    background-image: url(../img/iperosa-removebg-preview.png);
+    background-repeat: no-repeat;
+/*     background-position: bottom 10px right 10px;
+    background-size: 30rem; */
+}
+
 
 h2{
     color: rgb(107, 107, 107);
@@ -160,9 +166,16 @@ font: bolder;
 /*     display: inline; */
 }
 
-.footer-box H2 {
-     display: inline;
+.redes_sociais{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
+
+
+/* .footer-box H2 {
+     display: inline;
+} */
 
 .footer-box{
     display: flex;
